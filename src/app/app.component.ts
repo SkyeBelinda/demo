@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Box } from './box/box';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +9,8 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   title = 'demo - the validation for box sizes';
-  public box: Hero = {
-    height: 1,
-    width: 'Windstorm'
+  public box: Box = {
+    height: 1000,
+    width: 1000
   };
 }
